@@ -1,3 +1,9 @@
+macro_macro_mic: macro_macro_mic{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_mic";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LCTRL>, <&kp LSHFT>, <&kp B>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
