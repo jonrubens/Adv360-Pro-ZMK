@@ -37,11 +37,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL          &kp N1              &kp N2       &kp N3            &kp N4  &kp N5           &tog 1                                                                               &mo 3  &kp N6        &kp N7      &kp N8              &kp N9         &kp N0  &kp MINUS
-  &kp TAB           &kp Q               &kp W        &kp F             &kp P   &kp B           &tog 5                                                                    &kp C_PLAY_PAUSE   &kp J         &kp L       &kp U               &kp Y  &kp SEMICOLON   &kp BSLH
-  &kp ESC  &hm LEFT_ALT A  &hm LEFT_CONTROL R   &hm LGUI S  &hm LEFT_SHIFT T   &kp G           &kp F6  &kp LCTRL          &kp LALT                    &kp F8     &kp F7     &kp LG(SPACE)   &kp M  &hm LSHIFT N  &hm LGUI E  &hm LEFT_CONTROL I     &hm LALT O    &kp SQT
-&kp LSHFT           &kp Z               &kp X  &mt LG(C) C       &mt LG(V) D   &kp V                              &kp LS(LC(LALT))      &kp LG(LC(LS(LALT)))                                &kp K         &kp H   &kp COMMA             &kp DOT       &kp FSLH  &kp RSHFT
-    &mo 1       &kp GRAVE          &caps_word     &kp LEFT         &kp RIGHT          &lt 4 BACKSPACE    &kp TAB             &none         &kp LC(LS(LA(B)))  &kp ENTER       &lt 2 SPACE                &kp UP    &kp DOWN            &kp LBKT       &kp RBKT      &mo 2
+&kp EQUAL          &kp N1              &kp N2       &kp N3            &kp N4  &kp N5           &tog 1                                                                                                  &mo 3  &kp N6        &kp N7      &kp N8              &kp N9         &kp N0  &kp MINUS
+  &kp TAB           &kp Q               &kp W        &kp F             &kp P   &kp B           &tog 5                                                                                       &kp C_PLAY_PAUSE   &kp J         &kp L       &kp U               &kp Y  &kp SEMICOLON   &kp BSLH
+  &kp ESC  &hm LEFT_ALT A  &hm LEFT_CONTROL R   &hm LGUI S  &hm LEFT_SHIFT T   &kp G           &kp F6  &kp LS(LA(LCTRL))          &kp LALT                    &kp F7  &kp LS(LC(LG(LALT)))     &kp LG(SPACE)   &kp M  &hm LSHIFT N  &hm LGUI E  &hm LEFT_CONTROL I     &hm LALT O    &kp SQT
+&kp LSHFT           &kp Z               &kp X  &mt LG(C) C       &mt LG(V) D   &kp V                                      &kp LS(LC(LALT))      &kp LG(LC(LS(LALT)))                                           &kp K         &kp H   &kp COMMA             &kp DOT       &kp FSLH  &kp RSHFT
+    &mo 1       &kp GRAVE          &caps_word     &kp LEFT         &kp RIGHT          &lt 4 BACKSPACE            &kp TAB             &none         &kp LC(LS(LA(B)))             &kp ENTER       &lt 2 SPACE                &kp UP    &kp DOWN            &kp LBKT       &kp RBKT      &mo 2
             >;
         };
 
