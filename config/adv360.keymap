@@ -61,7 +61,7 @@
 &trans  &kp EXCLAMATION  &kp AT         &kp LEFT_BRACE        &kp RIGHT_BRACE        &none      &none                                                  &none   &trans      &trans        &trans           &trans  &trans   &trans
 &trans  &kp CARET        &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &trans             &trans  &trans      &trans  &trans  &none   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans   &trans
 &trans  &kp PERCENT      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                             &trans      &trans                  &trans      &trans        &trans           &trans  &trans   &trans
-&trans  &none            &kp HASH       &kp LESS_THAN         &kp GREATER_THAN                  &kp LG(BACKSPACE)  &trans  &trans      &trans  &trans  &trans              &trans        &trans           &trans  &trans   &trans
+&trans  &none            &kp HASH       &kp LESS_THAN         &kp GREATER_THAN                  &kp LA(BACKSPACE)  &trans  &trans      &trans  &trans  &trans              &trans        &trans           &trans  &trans   &trans
             >;
         };
 
