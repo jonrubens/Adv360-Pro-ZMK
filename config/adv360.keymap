@@ -60,6 +60,16 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <65 70>;
+            layers = <0 1>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
