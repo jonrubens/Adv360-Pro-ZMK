@@ -38,8 +38,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HML";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <7 8 9 9 10 11 12 13 23 24 25 26 27 41 42 43 44 45 55 56 57 58 59 71 72 73 74 75 21 22 39 40 54>;
@@ -48,8 +48,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "HMR";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            flavor = "tap-unless-interrupted";
+            tapping-term-ms = <200>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             hold-trigger-key-positions = <0 1 2 3 4 14 15 16 17 18 28 29 30 31 32 46 47 48 49 50 60 61 62 63 64 5 6 19 20 33 34 51>;
