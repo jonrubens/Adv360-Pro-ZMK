@@ -142,7 +142,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans     &trans  &trans  &trans     &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &none      &kp O   &kp I   &kp L      &kp SEMI  &kp R
 &trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans  &none      &kp H   &kp Y   &kp N      &kp U     &kp P
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                  &kp LC(D)  &kp B   &kp N   &kp COMMA  &kp DOT   &kp FSLH
+&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                  &kp LC(G)  &kp B   &kp J   &kp COMMA  &kp DOT   &kp FSLH
 &trans  &trans  &trans  &trans  &trans          &lt 0 BACKSPACE  &trans  &trans      &trans  &trans  &trans             &trans  &trans  &trans     &trans    &trans
             >;
         };
