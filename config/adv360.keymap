@@ -122,7 +122,7 @@
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none                                                  &trans                  &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &bootloader                                            &bootloader             &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none         &none         &none        &none  &none      &bt BT_CLR  &none       &rgb_ug RGB_MEFS_CMD 5  &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none	       &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
+&none  &none         &none         &none         &none         &none                             &none      &none                                           &none  &none       &none       &none  &none  &none
 &none  &none         &none         &none         &none                       &none        &none  &none      &none       &bl BL_TOG  &rgb_ug RGB_TOG                &bl BL_INC  &bl BL_DEC  &none  &none  &none
             >;
         };
@@ -139,21 +139,11 @@
 
         game {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &lt 7 BACKSPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        game2 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans     &trans   &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp U   &kp I      &kp O    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp J   &kp K      &kp L    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp M   &kp COMMA  &kp DOT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans     &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans  &trans  &trans  &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &none   &kp J   &kp L   &kp U      &kp Y    &kp SEMI
+&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans  &none   &kp H   &kp N   &kp E      &kp I    &kp O
+&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                  &none   &kp B   &kp K   &kp COMMA  &kp DOT  &kp FSLH
+&trans  &trans  &trans  &trans  &trans          &lt 0 BACKSPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans     &trans   &trans
             >;
         };
     };
