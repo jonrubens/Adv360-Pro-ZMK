@@ -72,6 +72,19 @@
     };
 
     macros {
+        nethack_search: nethack_search {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N0 &kp S>;
+            label = "NETHACK_SEARCH";
+        };
+
+        nethack_rest: nethack_rest {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N0 &kp DOT>;
+            label = "NETHACK_REST";
+        };
     };
 
     keymap {
@@ -139,11 +152,11 @@
 
         nethack {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &kp F3  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &kp F2  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp F1  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &kp B   &kp N   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &nethack_rest    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &nethack_search  &trans  &trans  &trans  &trans  &trans  &kp LC(A)
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                           &kp B   &kp N   &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
