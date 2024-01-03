@@ -72,6 +72,19 @@
     };
 
     macros {
+        nethack_search: nethack_search {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N0 &kp S>;
+            label = "NETHACK_SEARCH";
+        };
+
+        nethack_rest: nethack_rest {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N1 &kp N0 &kp DOT>;
+            label = "NETHACK_REST";
+        };
     };
 
     keymap {
@@ -139,11 +152,11 @@
 
         game {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &lt 7 BACKSPACE  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &trans           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                               &nethack_rest    &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans           &trans  &trans      &trans  &trans  &nethack_search  &trans  &kp N4  &kp N5  &kp N6  &trans  &kp LC(A)
+&trans  &trans  &trans  &trans  &trans  &trans                           &trans      &trans                           &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &lt 7 BACKSPACE  &trans  &trans      &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans
             >;
         };
 
