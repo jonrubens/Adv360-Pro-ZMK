@@ -152,11 +152,11 @@
 
         nethack {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &nethack_rest    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &nethack_search  &trans  &trans  &trans  &trans  &trans  &kp LC(A)
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                           &kp B   &kp N   &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans           &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &nethack_rest    &trans  &trans  &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &nethack_search  &trans  &kp H   &kp J   &kp K      &kp L   &kp SEMI
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                           &kp B   &kp N   &trans  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                   &trans  &trans  &kp LC(A)  &trans  &trans
             >;
         };
     };
