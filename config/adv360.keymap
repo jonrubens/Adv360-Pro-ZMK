@@ -75,7 +75,7 @@
         nethack_search: nethack_search {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N0 &kp S>;
+            bindings = <&kp N1 &kp N0 &kp D>;
             label = "NETHACK_SEARCH";
         };
 
