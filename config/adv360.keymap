@@ -75,14 +75,14 @@
         nethack_search: nethack_search {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N0 &kp D>;
+            bindings = <&kp J &kp N1 &kp N0 &kp D>;
             label = "NETHACK_SEARCH";
         };
 
         nethack_rest: nethack_rest {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N0 &kp DOT>;
+            bindings = <&kp J &kp N1 &kp N0 &kp DOT>;
             label = "NETHACK_REST";
         };
     };
