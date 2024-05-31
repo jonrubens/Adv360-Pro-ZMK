@@ -135,11 +135,11 @@
 
         layer_symbols {
             bindings = <
-&trans  &kp F1           &kp F2         &kp F3                &kp F4                 &kp F5     &tog 2                                                 &mo 4   &kp F6      &kp F7        &kp F8           &kp F9  &kp F10  &trans
-&trans  &kp EXCLAMATION  &kp AT         &kp LEFT_BRACE        &kp RIGHT_BRACE        &none      &none                                                  &none   &trans      &trans        &trans           &trans  &trans   &trans
-&trans  &kp CARET        &kp DOLLAR     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &trans             &trans  &trans      &trans  &trans  &none   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans   &trans
-&trans  &kp PERCENT      &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                             &trans      &trans                  &trans      &trans        &trans           &trans  &trans   &trans
-&trans  &none            &kp HASH       &kp LESS_THAN         &kp GREATER_THAN                  &kp LA(BACKSPACE)  &trans  &trans      &trans  &trans  &trans              &trans        &trans           &trans  &trans   &trans
+&trans  &kp F1               &kp F2             &kp F3                            &kp F4                            &kp F5     &tog 2                                                 &mo 4   &kp F6      &kp F7        &kp F8           &kp F9  &kp F10  &trans
+&trans  &kp EXCLAMATION      &kp AT             &kp LEFT_BRACE                    &kp RIGHT_BRACE                   &none      &none                                                  &none   &trans      &trans        &trans           &trans  &trans   &trans
+&trans  &hml LEFT_ALT CARET  &hml LCTRL DOLLAR  &hml LEFT_SHIFT LEFT_PARENTHESIS  &hml LEFT_META RIGHT_PARENTHESIS  &none      &trans             &trans  &trans      &trans  &trans  &none   &kp C_MUTE  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans  &trans   &trans
+&trans  &kp PERCENT          &kp AMPERSAND      &kp LEFT_BRACKET                  &kp RIGHT_BRACKET                 &kp TILDE                             &trans      &trans                  &trans      &trans        &trans           &trans  &trans   &trans
+&trans  &none                &kp HASH           &kp LESS_THAN                     &kp GREATER_THAN                             &kp LA(BACKSPACE)  &trans  &trans      &trans  &trans  &trans              &trans        &trans           &trans  &trans   &trans
             >;
         };
 
