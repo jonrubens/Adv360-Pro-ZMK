@@ -4,10 +4,15 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: refil
       url-base: https://github.com/refil
+    - name: dhruvinsh
+      url-base: https://github.com/dhruvinsh
   projects:
     - name: zmk
       remote: refil
       revision: adv360-z3.5-2
       import: app/west.yml
+    - name: zmk-tri-state
+      remote: dhruvinsh
+      revision: main
   self:
     path: config
