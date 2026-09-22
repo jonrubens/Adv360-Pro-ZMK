@@ -60,14 +60,14 @@
         swap_to_windows: windows_swap {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1 &to 2>;
+            bindings = <&bt BT_SEL 1 &tog 2>;
             label = "WINDOWS_SWAP";
         };
 
         swap_to_mac: swap_to_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0 &to 0>;
+            bindings = <&bt BT_SEL 0 &tog 2>;
             label = "SWAP_TO_MAC";
         };
     };
@@ -97,11 +97,11 @@
 
         Windows {
             bindings = <
-&trans                 &trans  &trans  &trans  &trans  &trans  &swap_to_mac                                                               &trans            &trans  &trans  &trans     &trans    &trans    &trans
-&trans                 &kp Q   &kp W   &kp F   &kp P   &kp B   &trans                                                                     &kp C_PLAY_PAUSE  &kp J   &kp L   &kp U      &kp Y     &kp SEMI  &trans
-&trans                 &kp A   &kp R   &kp S   &kp T   &kp G   &trans               &kp LEFT_GUI  &trans                 &trans   &trans  &kp LG(SPACE)     &kp M   &kp N   &kp E      &kp I     &kp O     &trans
-&trans                 &kp Z   &kp X   &kp C   &kp D   &kp V                                      &trans                 &trans                             &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH  &trans
-&kp LA(LS(LG(LCTRL)))  &trans  &trans  &trans  &trans          &mt LCTRL BACKSPACE  &mt LALT DEL  &kp LC(BACKSPACE)      &trans  &trans  &trans                    &trans  &trans     &kp LBKT  &kp RBKT  &kp LS(LA(LCTRL))
+&trans  &trans  &trans  &trans  &trans  &trans  &swap_to_mac                                                              &trans            &trans  &trans  &trans     &trans    &trans    &trans
+&trans  &kp Q   &kp W   &kp F   &kp P   &kp B   &trans                                                                    &kp C_PLAY_PAUSE  &kp J   &kp L   &kp U      &kp Y     &kp SEMI  &trans
+&trans  &kp A   &kp R   &kp S   &kp T   &kp G   &trans               &kp LEFT_GUI  &trans                 &trans  &trans  &kp LG(SPACE)     &kp M   &kp N   &kp E      &kp I     &kp O     &trans
+&trans  &kp Z   &kp X   &kp C   &kp D   &kp V                                      &trans                 &trans                            &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH  &trans
+&trans  &trans  &trans  &trans  &trans          &mt LCTRL BACKSPACE  &mt LALT DEL  &kp LC(BACKSPACE)      &trans  &trans  &trans                    &trans  &trans     &kp LBKT  &kp RBKT  &kp LS(LA(LCTRL))
             >;
         };
 
